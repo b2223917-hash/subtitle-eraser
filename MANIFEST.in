@@ -1,0 +1,9 @@
+include README.md LICENSE THIRD_PARTY.md SubtitleEraser.spec
+include requirements*.txt research-requirements.txt
+include *.cmd
+recursive-include subtitle_eraser/assets/fonts *
+recursive-include tools *.py
+recursive-include tests *.py
+recursive-include docs *.md *.html *.png *.svg
+recursive-include licenses *
+recursive-include .github/workflows *.yml
