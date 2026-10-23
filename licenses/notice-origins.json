@@ -1,0 +1,17 @@
+[
+  {
+    "file": "RapidOCR-APACHE-2.0.txt",
+    "url": "https://raw.githubusercontent.com/RapidAI/RapidOCR/main/LICENSE",
+    "sha256": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333"
+  },
+  {
+    "file": "FlatBuffers-APACHE-2.0.txt",
+    "url": "https://raw.githubusercontent.com/google/flatbuffers/v25.12.19/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "PaddleOCR-APACHE-2.0.txt",
+    "url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/LICENSE",
+    "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e"
+  }
+]
