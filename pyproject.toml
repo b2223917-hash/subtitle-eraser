@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools==84.2.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subtitle-eraser"
+version = "0.3.0"
+description = "Local Windows prototype for Chinese subtitle segmentation and background repair"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.13"
+dynamic = ["dependencies"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.setuptools.packages.find]
+include = ["subtitle_eraser*"]
+
+[tool.setuptools.package-data]
+subtitle_eraser = ["assets/fonts/*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
